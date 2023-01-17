@@ -6,7 +6,7 @@ function minutesToRead(minutes) {
     return "☕️".repeat(times);
   } else if (minutes >= 30) {
     const times = Math.ceil(minutes / 10);
-    return "☕️".repeat(times);
+    return "🍱".repeat(times);
   } else {
     return "";
   }
